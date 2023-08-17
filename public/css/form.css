@@ -16,3 +16,7 @@ input{
    outline: none;
    height: 20px;
 }
+
+input[type="file"] {
+   width: 70%;
+}
