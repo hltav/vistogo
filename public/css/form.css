@@ -4,9 +4,29 @@
    align-items: center;
 }
 
+form{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.formvehicledata{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 50px;
+}
+label{
+   margin-bottom: 10px;
+}
+
 .inputstyle{
    display: flex;
-   gap: 10px;
+   gap:10px;
+}
+.datastyle{
+   display: flex;
+   flex-direction: column;
+   
 }
 
 input{
@@ -15,8 +35,18 @@ input{
    border-radius: 5px;
    outline: none;
    height: 20px;
+   margin-bottom: 10px;
 }
 
 input[type="file"] {
    width: 70%;
+}
+
+.photo{
+   
+}
+input[type="submit"]{
+   width: 20%;
+   align-self: center;
+   margin: 20px 0;
 }
